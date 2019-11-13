@@ -8,7 +8,7 @@ function Contact () {
             <a href='...'>
                 <i class="fas fa-paper-plane fa-3x"/>
             </a>
-            <a href='...'>
+            <a href='https://github.com/cconner57'>
                 <i class="fab fa-github fa-3x"/>
             </a>
             <a href='https://www.linkedin.com/in/chris-conner-86306b16a' rel="noopener noreferrer" target="_blank">
