@@ -6,7 +6,6 @@ function Contact () {
 
         <h1>Contact Me</h1>
             <a href='...'>
-                
                 <i class="fas fa-paper-plane fa-3x"/>
             </a>
             <a href='https://github.com/cconner57'>
