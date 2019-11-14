@@ -1,23 +1,31 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Project from '../Projects/Project/Project'
 
-function Projects () {
-    return (
-        <div class='navbar alert-danger'>
+class Projects extends Component {
+    render() {
 
-        <h1>Projects</h1>
-            
-            <i class="fab fa-html5 fa-5x"></i>
-            <i class="fab fa-css3-alt fa-5x"></i>
-            <i class="fab fa-js-square fa-5x"></i>
-            <i class="fab fa-react fa-5x"></i>
-            <i class="fab fa-angular fa-5x"></i>
-            <i class="fab fa-node fa-5x"></i>
-            <i class="fab fa-python fa-5x"></i>
-            <i class="fab fa-java fa-5x"></i>
-            <i class="fab fa-aws fa-5x"></i>
+        let array = ['fa-html5', 'fa-css3-alt', 'fa-js-square', 'fa-react', 'fa-angular', 'fa-node', 'fa-python', 'fa-java'];
 
-        </div>
-    )
+        let icons = array.map(icon => {
+            return <a href='...'><i key={icon} className={`fab ${icon} fa-3x`} /></a>
+        });
+        
+        return (
+            <div class='alert-danger'>
+
+                <h1>Projects</h1>
+                
+                <div>
+                    <h3>Filter:</h3>
+                    { icons }
+                </div>
+                <div>
+                    <Project/>
+                </div>
+
+            </div>
+        )
+    }
 }
 
 export default Projects
