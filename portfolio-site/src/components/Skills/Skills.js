@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../../App.css'
 
 class Skills extends Component {
     render() {
@@ -9,7 +10,8 @@ class Skills extends Component {
          });
  
          return (
-            <div className="container">
+            <div className="container" style={{height: 3000}}>
+                <span class="anchor" id="skills"></span>
                 <h1>Skills</h1>
                 <footer className="row">
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">

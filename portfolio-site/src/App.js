@@ -6,7 +6,7 @@ import Contact from './components/Contact/Contact'
 
 function App() {
   return (
-    <div class='container'>
+    <div class='container bg-white' data-spy="scroll" data-target="#navbar" data-offset="0">
       
       <Navbar/>
       <Skills/>

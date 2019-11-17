@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Project from '../Projects/Project/Project'
+import '../../App.css'
 
 class Projects extends Component {
     render() {
@@ -12,7 +13,7 @@ class Projects extends Component {
         
         return (
             <div class='alert-danger'>
-
+                <span class="anchor" id="projects"></span>
                 <h1>Projects</h1>
                 
                 <div>

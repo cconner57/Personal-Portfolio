@@ -1,10 +1,11 @@
 import React from 'react'
+import '../../App.css'
 
 function Contact () {
     return (
-        <div class='navbar alert-warning'>
-
-        <h1>Contact Me</h1>
+        <div class='container'  style={{height: 3000}}>
+            <span  id='contact' class="anchor"></span>
+            <h1>Contact Me</h1>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
                 <i class="fas fa-paper-plane fa-3x"/>
             </button>
