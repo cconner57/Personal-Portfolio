@@ -1,40 +1,22 @@
 import React from 'react';
 
-function Skills() {
-	let array = [
-		'html5.png',
-		'css.png',
-		'javascript.png',
-		'react.png',
-		'angular.png',
-		'express.png',
-		'node.jpg',
-		'mongodb.png',
-		'mysql.png',
-		'python.png',
-		'sass.png',
-		'aws.png'
-	];
-
-	let images = array.map((image) => {
-		return (
-			<div className="col l3 m4 s5">
-				<img
-					key={image}
-					src={require(`../../../public/images/skills/${image}`)}
-					alt="Programming Language"
-					height="75"
-				/>
-			</div>
-		);
-	});
-
+function About() {
 	return (
 		<div className="container">
-			<a id="skills" />
-			<h3>Skills</h3>
+			<a id="about" />
+			<h3>About</h3>
 			<div className="row valign-wrapper">
-				<div className="col s6 card hoverable">
+				<div className="col s6">
+					<div className="container">
+						<img
+							className="circle hoverable"
+							src="/images/avatar/chris.png"
+							height="260"
+							vertical-align="middle"
+						/>
+					</div>
+				</div>
+				<div className="card col s6 hoverable">
 					<p className="card-content">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus nisl at nibh cursus,
 						ac sodales mi lobortis. Cras finibus tincidunt varius. Maecenas a quam lectus. Nunc molestie sem
@@ -45,10 +27,9 @@ function Skills() {
 						Nunc viverra dui a lobortis vulputate. Nulla eu venenatis lorem.
 					</p>
 				</div>
-				<div className="col s6">{images}</div>
 			</div>
 		</div>
 	);
 }
 
-export default Skills;
+export default About;
