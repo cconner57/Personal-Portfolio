@@ -1,10 +1,8 @@
 import React from 'react';
-import Project from '../Projects/Project/Project';
+import Project from './Project';
 
 function Projects() {
 	const array = [
-		'fa-html5',
-		'fa-css3-alt',
 		'fa-js-square',
 		'fa-react',
 		'fa-angular',

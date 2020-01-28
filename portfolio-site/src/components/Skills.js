@@ -21,7 +21,7 @@ function Skills() {
 			<div className="col l3 m4 s5">
 				<img
 					key={image}
-					src={require(`../../../public/images/skills/${image}`)}
+					src={require(`../../public/images/skills/${image}`)}
 					alt="Programming Language"
 					height="75"
 				/>
