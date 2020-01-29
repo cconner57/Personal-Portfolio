@@ -60,33 +60,6 @@ function Contact() {
 								</form>
 							</div>
 						</div>
-						<div className="s4">
-							<h4 className="">Social</h4>
-						</div>
-						<div className="col s4 offset-s2">
-							<a
-								className="waves-effect waves-light btn"
-								href="https://github.com/cconner57"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								{' '}
-								Github
-								<i class="fab fa-github fa-3x" />
-							</a>
-						</div>
-						<div className="col s1">
-							<a
-								className="waves-effect waves-light btn"
-								href="https://www.linkedin.com/in/chris-conner-86306b16a"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								{' '}
-								LinkedIn
-								<i class="fab fa-linkedin fa-3x" />
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>

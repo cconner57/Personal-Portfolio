@@ -1,20 +1,14 @@
 import React from 'react';
+import ContactCard from './Contact-Card'
 
 function About() {
 	return (
 		<div className="container">
 			<a id="about" />
 			<h3>About</h3>
-			<div className="row valign-wrapper">
+			<div className="row">
 				<div className="col s6">
-					<div className="container">
-						<img
-							className="circle hoverable"
-							src="/images/avatar/chris.png"
-							height="260"
-							vertical-align="middle"
-						/>
-					</div>
+					<ContactCard/>
 				</div>
 				<div className="card col s6 hoverable">
 					<p className="card-content">
