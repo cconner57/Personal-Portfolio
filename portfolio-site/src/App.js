@@ -5,6 +5,8 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 
+import './App.css'
+
 import M from 'materialize-css';
 import 'materialize-css/dist/css/materialize.min.css';
 
