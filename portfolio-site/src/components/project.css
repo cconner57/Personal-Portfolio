@@ -1,5 +1,6 @@
 .grow {
 	width: 200px;
+	display: block;
 }
 
 .project-container {
@@ -24,13 +25,11 @@
 .project-links {
 	display: flex;
 	justify-content: space-evenly;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .card-link {
     transition: all 1s ease-in-out;
 }
 
-.card-link:hover {
-    transform: scale(1.4);
-}
+

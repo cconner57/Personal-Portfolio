@@ -1,15 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Project from './Project';
 
 function Projects() {
-	const array = [ 'fa-js-square', 'fa-react', 'fa-angular', 'fa-node', 'fa-python', 'fa-java' ];
+	const [ show, setShow ] = useState(true);
 
-	const icons = array.map((icon) => {
+	function hideShow() {
+		setShow(false);
+	}
+
+	let style = document.querySelectorAll('.grow');
+	if (!show) style.display = 'none';
+
+	const icons = [
+		{
+			name: 'fa-js-square',
+			language: 'JavaScript'
+		},
+		{
+			name: 'fa-react',
+			language: 'React'
+		},
+		{
+			name: 'fa-angular',
+			language: 'Angular'
+		},
+		{
+			name: 'fa-node',
+			language: 'Node'
+		},
+		{
+			name: 'fa-python',
+			language: 'Python'
+		},
+		{
+			name: 'fa-java',
+			language: 'Java'
+		}
+	];
+
+	const filteredIcons = icons.map((icons, i) => {
 		return (
-			<div className="col s1">
-				<a href="#">
-					<i key={icon} className={`fab ${icon} fa-2x`} />
-				</a>
+			<div key={i} className="col s1">
+				<button
+					className="light-blue accent-2 waves-effect waves-light btn-floating hoverable"
+					onClick={`filterSelection(${icons.language})`}
+				>
+					<i className={`fab ${icons.name} fa-2x`} />
+				</button>
 			</div>
 		);
 	});
@@ -17,11 +54,12 @@ function Projects() {
 	return (
 		<div class="container">
 			<a id="projects" />
-			<span class="anchor" id="projects" />
 			<h3>Projects</h3>
 			<div className="row valign-wrapper">
-				<h5 className="col s1">Filter:</h5>
-				{icons}
+				<button className="col s2 light-blue accent-2 waves-effect waves-light btn" onClick={hideShow}>
+					Show All
+				</button>
+				{filteredIcons}
 			</div>
 			<Project />
 		</div>

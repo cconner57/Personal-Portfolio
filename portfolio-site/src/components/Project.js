@@ -8,45 +8,52 @@ function Project() {
 			image: '/images/projects/javascript-clicker.png',
 			language: 'JavaScript',
 			live: '#',
-			github: '#'
+			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/clicker'
 		},
 		{
 			name: 'JS Clock',
 			image: '/images/projects/javascript-clock.png',
-			language: 'JavaScript',
+			language: 'React',
 			live: '#',
-			github: '#'
+			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/clock'
 		},
 		{
 			name: 'JS Countdown',
 			image: '/images/projects/javascript-countdown.png',
-			language: 'JavaScript',
+			language: 'Angular',
 			live: '#',
-			github: '#'
+			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/countdown'
 		},
 		{
 			name: 'JS Image Carousel',
 			image: '/images/projects/javascript-image-carousel.gif',
-			language: 'JavaScript',
+			language: 'Node',
 			live: '#',
-			github: '#'
+			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/image-carousel'
 		},
+		{
+			name: 'JS BMI Calculator',
+			image: '/images/projects/javascript-bmi-calculator.png',
+			language: 'Python',
+			live: '#',
+			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/bmi-calculator'
+		}
 	];
 
 	const insertProjects = projects.map((projects, i) => {
 		return (
-			<div className="card center-align hoverable grow">
-				<p key={i} className="project-title">
+			<div key={i} className="card center-align hoverable grow">
+				<p className="project-title">
 					{projects.name}
 				</p>
 				<div className="card-image image-size">
-					<img className="grow-image" src={projects.image} />
+					<img className="grow-image" src={projects.image} alt={projects.name} />
 				</div>
 				<div className="project-links">
-					<a className="card-link" href={projects.live}>
-						Live
+					<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href={projects.live}>
+						Demo
 					</a>
-					<a className="card-link" href={projects.github}>
+					<a className="light-blue accent-2 card-link waves-effect waves-light btn" href={projects.github}>
 						Github
 					</a>
 				</div>
@@ -54,11 +61,7 @@ function Project() {
 		);
 	});
 
-	return (
-		<div className="project-container">
-			{insertProjects}
-		</div>
-	);
+	return <div className="project-container">{insertProjects}</div>;
 }
 
 export default Project;
