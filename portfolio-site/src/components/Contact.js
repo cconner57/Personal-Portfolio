@@ -49,7 +49,7 @@ function Contact() {
 									</div>
 									<div className="card-action">
 										<button
-											class="btn waves-effect waves-light"
+											class=" light-blue accent-2 btn waves-effect waves-light"
 											type="submit"
 											name="action"
 										>
