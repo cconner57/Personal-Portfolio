@@ -37,6 +37,13 @@ function Project() {
 			language: 'Python',
 			live: '#',
 			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/bmi-calculator'
+		},
+		{
+			name: 'JS To Do List',
+			image: '/images/projects/javascript-todo.png',
+			language: 'Java',
+			live: '#',
+			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/todo-list'
 		}
 	];
 
