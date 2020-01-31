@@ -44,6 +44,13 @@ function Project() {
 			language: 'Java',
 			live: '#',
 			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/todo-list'
+		},
+		{
+			name: 'JS Quote Generator',
+			image: '/images/projects/javascript-quote-generator.png',
+			language: 'JavaScript',
+			live: '#',
+			github: 'https://github.com/cconner57/Projects/tree/master/JavaScript/todo-list'
 		}
 	];
 
