@@ -1,4 +1,6 @@
 import React from 'react';
+import { Element } from 'react-scroll';
+import Fade from 'react-reveal/Fade';
 
 function Skills() {
 	let array = [
@@ -18,7 +20,7 @@ function Skills() {
 
 	let images = array.map((image) => {
 		return (
-			<div className="col l3 m4 s5">
+			<div className="col m4 s6 push-l2">
 				<img
 					key={image}
 					src={require(`../../public/images/skills/${image}`)}
@@ -31,21 +33,23 @@ function Skills() {
 
 	return (
 		<div className="container">
-			<a id="skills" />
-			<h3>Skills</h3>
-			<div className="row valign-wrapper">
-				<div className="col s6 card hoverable">
-					<p className="card-content">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus nisl at nibh cursus,
-						ac sodales mi lobortis. Cras finibus tincidunt varius. Maecenas a quam lectus. Nunc molestie sem
-						orci, sed sagittis velit auctor eu. Quisque condimentum laoreet tristique. Proin nec ipsum
-						tellus. Donec eu commodo lorem, non sodales est. Donec et vestibulum lorem. Nulla fringilla erat
-						nec magna venenatis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
-						sagittis risus. Etiam porttitor interdum enim non gravida. Duis tincidunt elementum fringilla.
-						Nunc viverra dui a lobortis vulputate. Nulla eu venenatis lorem.
-					</p>
-				</div>
-				<div className="col s6">{images}</div>
+			<Fade left>
+				<Element id="skills">
+					<h3>Skills</h3>
+				</Element>
+			</Fade>
+			<div className="row valign-wrapper pcenter">
+				<Fade left>
+					<div className="col m6 card hoverable hide-on-small-only">
+						<p className="card-content">
+							I started learning HTML, CSS, and JavaScript in 2018 while taking Treehouse Courses. Later, enrolled into Coding Dojo to learn 
+							more about JavaScript and other coding languages. In the bootcamp, I learned JQuery, Python, JavaScript, Angular, Node.JS, MongoDB, and MySQL. After finishing the bootcamp, I got certified as an AWS Cloud Practitioner and found my interest in Front End Development. I'm focusing my efforts on learning React. 
+						</p>
+					</div>
+				</Fade>
+				<Fade right>
+					<div className="col m6 s12">{images}</div>
+				</Fade>
 			</div>
 		</div>
 	);

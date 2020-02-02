@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-scroll';
 
 function Navbar() {
 	return (
@@ -9,16 +8,24 @@ function Navbar() {
 				<div className="nav-content container">
 					<ul className="tabs tabs-transparent row">
 						<li className="tab col s3">
-							<a href="#about">About</a>
+							<Link className="navtext" activeClass="active" to="about" smooth={true} offset={-70} duration={750}>
+								About
+							</Link>
 						</li>
 						<li className="tab col s3">
-							<a href="#skills">Skills</a>
+							<Link className="navtext" activeClass="active" to="skills" smooth={true} offset={-70} duration={750}>
+								Skills
+							</Link>
 						</li>
 						<li className="tab col s3">
-							<a href="#projects">Projects</a>
+							<Link className="navtext" activeClass="active" to="projects" smooth={true} offset={-70} duration={750}>
+								Projects
+							</Link>
 						</li>
 						<li className="tab col s3">
-							<a href="#contact">Contact</a>
+							<Link className="navtext" activeClass="active" to="contact" smooth={true} offset={-70} duration={750}>
+								Contact
+							</Link>
 						</li>
 					</ul>
 				</div>

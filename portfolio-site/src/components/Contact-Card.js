@@ -2,13 +2,10 @@ import React from 'react';
 
 function ContactCard() {
 	return (
-		<div className="row center-align">
-			<img className="circle" src="/images/avatar/chris.png" alt="..." height="220" />
-			<div className="col s12">
-				<h4>Chris Conner</h4>
-			</div>
-
-			<div className="col s6">
+		<div className="row center-align social">
+			<img className="circle" src="/images/avatar/chris.png" alt="Chris" height="220" />
+			<h4>Chris Conner</h4>
+			<div className="col l6 m5 s6">
 				<a
 					className="light-blue accent-2 waves-effect waves-light btn"
 					href="https://github.com/cconner57"
@@ -21,7 +18,7 @@ function ContactCard() {
 					<i className="fab fa-github fa-3x" />
 				</a>
 			</div>
-			<div className="col s6">
+			<div className="col l6 m5 s6">
 				<a
 					className=" light-blue accent-2 waves-effect waves-light btn"
 					href="https://www.linkedin.com/in/chris-conner-86306b16a"
