@@ -99,7 +99,7 @@ function Project() {
 					<img className="grow-image" src={javascript.image} alt={javascript.name} />
 				</div>
 				<div className="project-links">
-					<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href={javascript.live}>
+					<a className="light-blue accent-2 card-link waves-effect waves-light btn" href={javascript.live}>
 						Demo
 					</a>
 					<a className="light-blue accent-2 card-link waves-effect waves-light btn" href={javascript.github}>

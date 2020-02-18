@@ -33,13 +33,13 @@ function Project() {
 						<div className="col m4 s12 card center-align hoverable grow">
 							<p className="project-title">Wedding</p>
 							<div className="card-image image-size imgcenter">
-								<img className="grow-image" src="/images/projects/javascript-pokedex.png" alt="" />
+								<img className="grow-image" src="/images/projects/wedding.png" alt="" />
 							</div>
 							<div className="project-links">
-								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="#">
+								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="www.chrisandallison2021.com">
 									Demo
 								</a>
-								<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="#">
+								<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="https://github.com/cconner57/Wedding">
 									Github
 								</a>
 							</div>
