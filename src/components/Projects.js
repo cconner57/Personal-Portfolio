@@ -19,7 +19,7 @@ function Project() {
 						<div className="col m4 s12 card center-align hoverable grow">
 							<p className="project-title">Jeopardy Game</p>
 							<div className="card-image image-size imgcenter">
-								<img className="grow-image" src="/images/projects/javascript-pokedex.png" alt="" />
+								<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
 							</div>
 							<div className="project-links">
 								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="#">
@@ -47,7 +47,7 @@ function Project() {
 						<div className="col m4 s12 card center-align hoverable grow">
 							<p className="project-title">The Catty Shack</p>
 							<div className="card-image image-size imgcenter">
-								<img className="grow-image" src="/images/projects/javascript-pokedex.png" alt="" />
+								<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
 							</div>
 							<div className="project-links">
 								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="#">
