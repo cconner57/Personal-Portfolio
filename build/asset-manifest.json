@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b45b155a.chunk.css",
+    "main.js": "/static/js/main.b40728aa.chunk.js",
+    "main.js.map": "/static/js/main.b40728aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.77537405.js",
+    "runtime-main.js.map": "/static/js/runtime-main.77537405.js.map",
+    "static/css/2.2623327d.chunk.css": "/static/css/2.2623327d.chunk.css",
+    "static/js/2.3cd11184.chunk.js": "/static/js/2.3cd11184.chunk.js",
+    "static/js/2.3cd11184.chunk.js.map": "/static/js/2.3cd11184.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8ae6e548292a89b9cab733e8cf2fe500.js": "/precache-manifest.8ae6e548292a89b9cab733e8cf2fe500.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2623327d.chunk.css.map": "/static/css/2.2623327d.chunk.css.map",
+    "static/css/main.b45b155a.chunk.css.map": "/static/css/main.b45b155a.chunk.css.map",
+    "static/js/2.3cd11184.chunk.js.LICENSE.txt": "/static/js/2.3cd11184.chunk.js.LICENSE.txt",
+    "static/media/angular.png": "/static/media/angular.fe04c4ad.png",
+    "static/media/javascript.png": "/static/media/javascript.18c96949.png",
+    "static/media/mongodb.png": "/static/media/mongodb.d15bd060.png",
+    "static/media/mysql.png": "/static/media/mysql.72a019ce.png",
+    "static/media/node.jpg": "/static/media/node.5979f605.jpg",
+    "static/media/python.png": "/static/media/python.8a1c1184.png",
+    "static/media/react.png": "/static/media/react.239c8fa6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77537405.js",
+    "static/css/2.2623327d.chunk.css",
+    "static/js/2.3cd11184.chunk.js",
+    "static/css/main.b45b155a.chunk.css",
+    "static/js/main.b40728aa.chunk.js"
+  ]
+}
