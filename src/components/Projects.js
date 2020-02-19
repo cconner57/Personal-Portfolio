@@ -36,10 +36,10 @@ function Project() {
 								<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
 							</div>
 							<div className="project-links">
-								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="#">
+								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="jeopardy-clone.netlify.com">
 									Demo
 								</a>
-								<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="#">
+								<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="https://github.com/cconner57/Projects/tree/master/React/jeopardy-app">
 									Github
 								</a>
 							</div>
