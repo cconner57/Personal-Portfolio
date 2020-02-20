@@ -5,6 +5,15 @@ import Fade from 'react-reveal/Fade';
 function Contact() {
 	const handleSubmit = (e) => {
 		e.preventDefault();
+		const form = e.target;
+		const data = new FormData(form);
+		const xhr = new XMLHttpRequest();
+		xhr.open(form.method, form.action);
+		xhr.setRequestHeader('Accept', 'application/json');
+		xhr.onreadystatechange = () => {
+			if (xhr.readyState !== XMLHttpRequest.DONE) return;
+		};
+		xhr.send(data);
 	};
 
 	return (
@@ -17,7 +26,7 @@ function Contact() {
 					<div className="col s8 offset-s2 center-align vcenter">
 						<div className="card">
 							<div className="card-content hoverable">
-								<form onSubmit={handleSubmit}>
+								<form onSubmit={handleSubmit} action="https://formspree.io/mvorpvwb" method="POST">
 									<div className="row">
 										<div className="input-field col s12">
 											<i class="material-icons prefix hide-on-small-only">account_circle</i>
