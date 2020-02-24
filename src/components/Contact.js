@@ -23,59 +23,59 @@ function Contact() {
 					<h3>Contact</h3>
 				</Element>
 				<div className="row">
-					<div className="col s8 offset-s2 center-align vcenter">
+					<div className="col s10 offset-s1 center-align vcenter">
 						<div className="card">
 							<div className="card-content hoverable">
 								<form onSubmit={handleSubmit} action="https://formspree.io/mvorpvwb" method="POST">
 									<div className="row">
 										<div className="input-field col s12">
-											<i class="material-icons prefix hide-on-small-only">account_circle</i>
+											<i className="material-icons prefix hide-on-small-only">account_circle</i>
 											<input
 												placeholder="Enter Name"
 												id="first_name"
 												type="text"
-												class="validate"
+												className="validate"
 											/>
-											<label className="black-text" for="first_name">
+											<label className="black-text" htmlFor="first_name">
 												Name
 											</label>
 										</div>
 									</div>
 									<div className="row">
 										<div className="input-field col s12">
-											<i class="material-icons prefix hide-on-small-only">email</i>
+											<i className="material-icons prefix hide-on-small-only">email</i>
 											<input
 												placeholder="Enter Email"
 												id="email"
 												type="email"
 												className="validate"
 											/>
-											<label className="black-text" HTMLfor="email">
+											<label className="black-text" htmlFor="email">
 												Email
 											</label>
 										</div>
 									</div>
-									<div class="row">
-										<div class="input-field col s12">
-											<i class="material-icons prefix hide-on-small-only">mode_edit</i>
+									<div className="row">
+										<div className="input-field col s12">
+											<i className="material-icons prefix hide-on-small-only">mode_edit</i>
 											<textarea
 												placeholder="Enter Message"
 												id="textarea"
-												class="materialize-textarea"
+												className="materialize-textarea"
 											/>
-											<label className="black-text" for="textarea">
+											<label className="black-text" htmlFor="textarea">
 												Message
 											</label>
 										</div>
 									</div>
 									<div className="card-action">
 										<button
-											class=" light-blue accent-2 btn waves-effect waves-light"
+											className=" light-blue accent-2 btn waves-effect waves-light"
 											type="submit"
 											name="action"
 										>
 											Submit
-											<i class="material-icons right">send</i>
+											<i className="material-icons right">send</i>
 										</button>
 									</div>
 								</form>

@@ -16,7 +16,7 @@ function Project() {
 				<div className="container">
 					<div className="row center-align">
 					<h5 className="col s12">Top Projects</h5>
-						<div className="col m4 s12 card center-align hoverable grow">
+						<div className="col m4 s12 card center-align">
 							<p className="project-title">Wedding Site</p>
 							<div className="card-image image-size imgcenter">
 								<img className="grow-image" src="/images/projects/wedding.png" alt="" />
@@ -30,7 +30,7 @@ function Project() {
 								</a>
 							</div>
 						</div>
-						<div className="col m4 s12 card center-align hoverable grow">
+						<div className="col m4 s12 card center-align">
 							<p className="project-title">Jeopardy Game</p>
 							<div className="card-image image-size imgcenter">
 								<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
@@ -44,7 +44,7 @@ function Project() {
 								</a>
 							</div>
 						</div>
-						<div className="col m4 s12 card center-align hoverable grow">
+						<div className="col m4 s12 card center-align">
 							<p className="project-title">The Catty Shack</p>
 							<div className="card-image image-size imgcenter">
 								<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
