@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 function Navbar() {
 	return (
-		<div className="navbar-fixed">
+		<div className="navbar-fixed fadein">
 			<nav className="nav-extended light-blue accent-4">
 				<div className="nav-content container">
 					<ul className="tabs tabs-transparent row">

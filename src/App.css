@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -79,18 +79,61 @@ textarea {
   margin: 0 10%;
 }
 
+.container h3 {
+  margin-top: 50px;
+}
+
+.container h5 {
+  text-align: center;
+}
+
 p {
   color: #212121;
-  font-weight: 500;
+  font-family: 'Roboto', serif;
 }
 
 h3,
 h4 {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Roboto', serif;
+}
+
+.card-spacing {
+  margin: 0 5%;
+}
+
+.project-title {
+  text-align: center;
 }
 
 .imgcenter {
   margin: 0 25%;
+}
+
+.socialLinks a {
+  margin: 0 15px;
+}
+
+.fadein {
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -107,37 +150,61 @@ h4 {
     margin-top: 5%;
   }
   .pcenter {
-    padding: 0 10%;
-  }
-  .vcenter {
-    margin-top: 5%;
-    padding: 15% 0;
+    padding: 0 5%;
   }
   .social {
     padding: 0 10% 0 0;
+  }
+  .spacing {
+    margin: 0 20%;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .acenter {
-    margin-top: 5%;
+    margin-top: 1%;
   }
   .pcenter {
-    padding: 0 10%;
+    padding: 0 5%;
   }
   .vcenter {
-    margin-top: 5%;
-    padding: 15% 0;
+    padding: 15% 10%;
   }
   .social {
     padding: 0 10% 0 0;
+  }
+  .spacing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .vcenter {
-    margin-top: 5%;
     padding: 15% 0;
   }
+  .spacing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.card-height {
+  margin: 100px 0;
+}
+
+.form-submit {
+  display: none;
+  padding: 50px;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
 }
 /*# sourceMappingURL=App.css.map */

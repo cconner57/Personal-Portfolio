@@ -38,7 +38,7 @@ function Skills() {
 					<h3>Skills</h3>
 				</Element>
 			</Fade>
-			<div className="row valign-wrapper pcenter">
+			<div className="row  pcenter">
 				<Fade left>
 					<div className="col m6 card hoverable hide-on-small-only">
 						<p className="card-content">

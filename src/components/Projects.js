@@ -13,50 +13,60 @@ function Project() {
 				<Element id="projects">
 					<h3>Projects</h3>
 				</Element>
-				<div className="container">
-					<div className="row center-align">
-					<h5 className="col s12">Top Projects</h5>
-						<div className="col m4 s12 card center-align">
-							<p className="project-title">Wedding Site</p>
-							<div className="card-image image-size imgcenter">
-								<img className="grow-image" src="/images/projects/wedding.png" alt="" />
-							</div>
-							<div className="project-links">
-								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="www.chrisandallison2021.com">
-									Demo
-								</a>
-								<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="https://github.com/cconner57/Wedding">
-									Github
-								</a>
-							</div>
+				<h5>Top Projects</h5>
+				<div className="spacing">
+					<div className="col m4 s12 card">
+						<p className="project-title">Wedding Site</p>
+						<div className="card-image image-size imgcenter">
+							<img className="grow-image" src="/images/projects/wedding.png" alt="" />
 						</div>
-						<div className="col m4 s12 card center-align">
-							<p className="project-title">Jeopardy Game</p>
-							<div className="card-image image-size imgcenter">
-								<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
-							</div>
-							<div className="project-links">
-								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="jeopardy-clone.netlify.com">
-									Demo
-								</a>
-								<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="https://github.com/cconner57/Projects/tree/master/React/jeopardy-app">
-									Github
-								</a>
-							</div>
+						<div className="project-links">
+							<a
+								className=" light-blue accent-2 card-link waves-effect waves-light btn"
+								href="www.chrisandallison2021.com"
+							>
+								Demo
+							</a>
+							<a
+								className="light-blue accent-2 card-link waves-effect waves-light btn"
+								href="https://github.com/cconner57/Wedding"
+							>
+								Github
+							</a>
 						</div>
-						<div className="col m4 s12 card center-align">
-							<p className="project-title">The Catty Shack</p>
-							<div className="card-image image-size imgcenter">
-								<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
-							</div>
-							<div className="project-links">
-								<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="#">
-									Demo
-								</a>
-								<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="#">
-									Github
-								</a>
-							</div>
+					</div>
+					<div className="col m4 s12 card">
+						<p className="project-title">Jeopardy Game</p>
+						<div className="card-image image-size imgcenter">
+							<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
+						</div>
+						<div className="project-links">
+							<a
+								className=" light-blue accent-2 card-link waves-effect waves-light btn"
+								href="jeopardy-clone.netlify.com"
+							>
+								Demo
+							</a>
+							<a
+								className="light-blue accent-2 card-link waves-effect waves-light btn"
+								href="https://github.com/cconner57/Projects/tree/master/React/jeopardy-app"
+							>
+								Github
+							</a>
+						</div>
+					</div>
+					<div className="col m4 s12 card">
+						<p className="project-title">The Catty Shack</p>
+						<div className="card-image image-size imgcenter">
+							<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
+						</div>
+						<div className="project-links">
+							<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="#">
+								Demo
+							</a>
+							<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="#">
+								Github
+							</a>
 						</div>
 					</div>
 				</div>

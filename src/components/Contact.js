@@ -14,6 +14,9 @@ function Contact() {
 			if (xhr.readyState !== XMLHttpRequest.DONE) return;
 		};
 		xhr.send(data);
+
+		document.querySelector('.transition').style.display = 'none';
+		document.querySelector('.form-submit').style.display = 'block';
 	};
 
 	return (
@@ -29,12 +32,13 @@ function Contact() {
 								<form onSubmit={handleSubmit} action="https://formspree.io/mvorpvwb" method="POST">
 									<div className="row">
 										<div className="input-field col s12">
-											<i className="material-icons prefix hide-on-small-only">account_circle</i>
+											<i className="material-icons prefix">account_circle</i>
 											<input
 												placeholder="Enter Name"
 												id="first_name"
 												type="text"
 												className="validate"
+												required
 											/>
 											<label className="black-text" htmlFor="first_name">
 												Name
@@ -43,12 +47,13 @@ function Contact() {
 									</div>
 									<div className="row">
 										<div className="input-field col s12">
-											<i className="material-icons prefix hide-on-small-only">email</i>
+											<i className="material-icons prefix">email</i>
 											<input
 												placeholder="Enter Email"
 												id="email"
 												type="email"
 												className="validate"
+												required
 											/>
 											<label className="black-text" htmlFor="email">
 												Email
@@ -57,11 +62,12 @@ function Contact() {
 									</div>
 									<div className="row">
 										<div className="input-field col s12">
-											<i className="material-icons prefix hide-on-small-only">mode_edit</i>
+											<i className="material-icons prefix">mode_edit</i>
 											<textarea
 												placeholder="Enter Message"
 												id="textarea"
 												className="materialize-textarea"
+												required
 											/>
 											<label className="black-text" htmlFor="textarea">
 												Message
@@ -79,6 +85,9 @@ function Contact() {
 										</button>
 									</div>
 								</form>
+								<div className="form-submit">
+									<h4>Message Sent</h4>
+								</div>
 							</div>
 						</div>
 					</div>
