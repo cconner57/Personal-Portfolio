@@ -12,7 +12,7 @@ function About() {
 				<div className="col m6 s12">
 					<ContactCard />
 				</div>
-				<div className="card-height card col m6 s12 hoverable">
+				<div className="card-height card col m6 s12 hoverable card-spacing">
 					<p className="card-content">
 						My name is Chris Conner. I’m an ambitious front-end developer who is actively seeking to improve
 						my skillset. I'm eager to learn about this field and stay up to date with the latest
