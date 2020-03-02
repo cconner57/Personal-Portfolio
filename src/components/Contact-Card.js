@@ -3,7 +3,7 @@ import React from 'react';
 function ContactCard() {
 	return (
 		<div className="row center-align social">
-			<img className="circle" src="/images/avatar/chris.png" alt="Chris" height="220" />
+			<img className="circle fadein" src="/images/avatar/chris.png" alt="Chris" height="220" />
 			<h4>Chris Conner</h4>
 			<div className="socialLinks">
 				<a
