@@ -61,10 +61,10 @@ function Project() {
 							<img className="grow-image" src="/images/projects/ComingSoon.png" alt="" />
 						</div>
 						<div className="project-links">
-							<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="#">
+							<a className=" light-blue accent-2 card-link waves-effect waves-light btn" href="https://gatsby-pet-adoption.netlify.com">
 								Demo
 							</a>
-							<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="#">
+							<a className="light-blue accent-2 card-link waves-effect waves-light btn" href="https://github.com/cconner57/GatsbyJS-Pet-Adoption">
 								Github
 							</a>
 						</div>
