@@ -19,11 +19,11 @@ function About() {
 						technologies, often spending hours researching online and creating projects. Programming is a
 						passion of mine as I enjoy the satisfaction of turning a concept into reality, taking pride in
 						the finished product.
-					<div className="Resume">
-					<i class="fas fa-file-download fa-lg"/>
-					<a href="/images/Christopher_Conner_-_Front-End_Web_Developer.pdf">Download Resume</a>
-					</div>
 					</p>
+					<div className="Resume">
+						<i className="fas fa-file-download fa-lg" />
+						<a href="/images/Christopher_Conner_-_Front-End_Web_Developer.pdf">Download Resume</a>
+					</div>
 				</div>
 			</div>
 		</div>
