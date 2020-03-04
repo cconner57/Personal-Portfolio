@@ -80,7 +80,7 @@ textarea {
 }
 
 .container h3 {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .container h5 {
@@ -103,12 +103,12 @@ h4 {
 
 .Resume {
   text-align: center;
-  padding-top: 10px;
+  padding: 0 10px 20px;
 }
 
 .Resume i {
   color: #1c90ea;
-  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .project-title {
@@ -124,8 +124,8 @@ h4 {
 }
 
 .fadein {
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
 }
 
 @-webkit-keyframes fadein {
@@ -154,7 +154,7 @@ h4 {
     margin: 5% 0;
   }
   .acenter {
-    margin-top: 10%;
+    margin-right: 10%;
   }
   .cc-space {
     margin-top: 5%;
@@ -205,10 +205,9 @@ h4 {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-}
-
-.card-height {
-  margin: 100px 0;
+  .card-height {
+    margin: 20px 0;
+  }
 }
 
 .form-submit {
