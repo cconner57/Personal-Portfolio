@@ -23,7 +23,7 @@ function Project() {
 						<div className="project-links">
 							<a
 								className=" light-blue accent-2 card-link waves-effect waves-light btn"
-								href="www.chrisandallison2021.com"
+								href="https://www.chrisandallison2021.com"
 							>
 								Demo
 							</a>
@@ -43,7 +43,7 @@ function Project() {
 						<div className="project-links">
 							<a
 								className=" light-blue accent-2 card-link waves-effect waves-light btn"
-								href="jeopardy-clone.netlify.com"
+								href="https://jeopardy-clone.netlify.com"
 							>
 								Demo
 							</a>
