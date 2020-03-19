@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+$primary-color: rgb(63, 196, 255);
+$secondary-color: rgb(28, 144, 234);
+$text-color: rgb(33, 33, 33);
+
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -30,7 +34,6 @@ img {
 
 button,
 input,
-select,
 textarea {
 	font-family: inherit;
 	font-size: 100%;
@@ -66,17 +69,9 @@ button:-moz-focusring,
 	outline: 1px dotted ButtonText;
 }
 
-fieldset {
-	padding: 0.35em 0.75em 0.625em;
-}
-
 textarea {
 	overflow: auto;
 }
-
-$primary-color: rgb(63, 196, 255);
-$secondary-color: rgb(28, 144, 234);
-$text-color: rgb(33, 33, 33);
 
 .container {
 	margin: 0 10%;
